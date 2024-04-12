@@ -10,6 +10,10 @@ function realizarOperacion() {
     var nombreUsuario = solicitarNombreUsuario();
     var monto = solicitarMonto();
     var saldoDisponible = 1000; // Saldo inicial, puede cambiarlo según lo desee
+    
+    // function controlDeSaldo() {for(let contadorSaldo = 0; saldoDisponible => 0; contadorSaldo++ );
+    // }
+    // controlDeSaldo();
 
     if (isNaN(monto)) {
         alert("Por favor, ingrese un monto válido.");
